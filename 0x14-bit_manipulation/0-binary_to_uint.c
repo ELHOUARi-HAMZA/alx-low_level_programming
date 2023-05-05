@@ -1,11 +1,11 @@
-#include <main.h>
+#include <stdio.h>
+#include "main.h"
 
 /**
- *swap_int - swaps the values of two integer
- *@a: pointer to the first integer
+ *binary_to_uint converts a binary number to an unsigned int.
+ *@b: pointing to a string of 0 and 1
  *
- *@b: pointer to the second integer
- *This function swaps the values of the two integers pointed to by a and b.
+ *Returns: converted number or 0.
  */
 unsigned int binary_to_uint(const char *b)
 {
